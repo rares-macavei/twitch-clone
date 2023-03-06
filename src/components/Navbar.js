@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       {/* Middle */}
       <div className="hidden md:flex items-center">
-        <input type="search" placeholder="Search" className="ml-[2.5rem] pl-[0.75rem] p-[0.3rem] bg-[#ebebeb] mr-[0px] text-[1rem] text-[#666666] placeholder-gray-500 placeholder-opacity-100 outline-[#7559a8] rounded w-[20rem]" />
+        <input type="search" placeholder="Search" className="ml-[2.5rem] pl-[0.75rem] p-[0.3rem] bg-[#ebebeb] mr-[0px] text-[1rem] text-[#666666] placeholder-gray-500 placeholder-opacity-100 outline-[#7559a8] rounded w-[22rem]" />
         <div className="flex items-center cursor-pointer justify-center ml-[0.15rem] border w-8 h-8 bg-[#ebebeb] rounded-r border-[#ebebeb]"><BsSearch /></div>
       </div>
       {/* Right side */}
