@@ -42,7 +42,7 @@ const Cards = () => {
     { title: "World of Tanks", image: wot, viewers: '18.9K viewers', type: "Simulation" },
     { title: "Rust", image: rust, viewers: '16.6K viewers', type: "Adventure Game" },
     { title: "DayZ", image: dayz, viewers: '12.4K viewers', type: "Simulation" },
-    { title: "Call of Duty: Modern...", image: codmw, viewers: '11.8K viewers', type: "FPS" },
+    { title: "Call of Duty: Modern W...", image: codmw, viewers: '11.8K viewers', type: "FPS" },
     { title: "Among Us", image: among, viewers: '9K viewers', type: "Survival" },
     { title: "Sons of the Forest", image: soft, viewers: '5.6K viewers', type: "Horror" },
   ];
@@ -75,7 +75,7 @@ const Cards = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-9 gap-3">
         {cards.map((card) => <Card title={card.title} image={card.image} viewers={card.viewers} type={card.type} />)}
       </div>
     </div>

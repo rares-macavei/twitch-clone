@@ -4,7 +4,7 @@ import Cards from './Cards'
 
 const Main = () => {
   return (
-    <div className='px-6 lg:px-12 pt-5'>
+    <div className='px-4 lg:px-6 pt-5'>
       {/* Browse */}
       <Browse />
       {/* Cards */}

@@ -14,13 +14,13 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
         <img src={Logo} alt="Twitch Logo" className="w-6 h-6 cursor-pointer" />
         <div className="">
-          <p className='font-semibold hover:text-[#5c16c5] text-[19px] ml-[10px] cursor-pointer'>Browse</p>
+          <p className='font-semibold hover:text-[#5c16c5] text-[18px] ml-[10px] cursor-pointer'>Browse</p>
         </div>
         <div className="flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] ml-3"><BiDotsVerticalRounded className="text-[24px]"/></div>
       </div>
       {/* Middle */}
       <div className="hidden md:flex items-center">
-        <input type="search" placeholder="Search" className="ml-[2.5rem] pl-[0.75rem] p-[0.3rem] bg-[#ebebeb] mr-[0px] text-[1rem] text-[#666666] placeholder-gray-500 placeholder-opacity-100 outline-[#7559a8] rounded w-[22rem]" />
+        <input type="search" placeholder="Search" className="ml-[4rem] pl-[0.75rem] p-[0.3rem] bg-[#ebebeb] mr-[0px] text-[1rem] text-[#666666] placeholder-gray-500 placeholder-opacity-100 outline-[#7559a8] rounded w-[22rem]" />
         <div className="flex items-center cursor-pointer justify-center ml-[0.15rem] border w-8 h-8 bg-[#ebebeb] rounded-r border-[#ebebeb]"><BsSearch /></div>
       </div>
       {/* Right side */}

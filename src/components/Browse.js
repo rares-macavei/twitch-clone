@@ -17,9 +17,9 @@ const Browse = () => {
   return (
     <div className=''>
       {/* Title */}
-      <h1 className='text-[55px] font-bold'>Browse</h1>
+      <h1 className='text-[52px] font-bold'>Browse</h1>
       {/* Categories */}
-      <div className="flex flex-wrap gap-x-12 gap-y-4">
+      <div className="flex flex-wrap gap-x-4 gap-y-4">
         {categories.map((category) => ( 
         <Category title={category.title} icon={category.icon}/>
         ))}
