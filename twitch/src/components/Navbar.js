@@ -28,10 +28,10 @@ const Navbar = () => {
         <div className="md:hidden flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] mr-3"><BsSearch className="w-4 h-[1.3rem] "/></div>
         <div className="flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] mr-3"><CgCrown className="w-auto h-[1.3rem] "/></div>
         <div className="flex items-center justify-center w-auto h-[1.8rem]  mr-3 bg-[#ebebeb] cursor-pointer rounded mr-4 hover:bg-[#e0e0e0]">
-          <p className="font-semibold text-[12px] lg:text-[14px] pb-[0.2rem] whitespace-nowrap px-[0.6rem]">Log In</p>
+          <p className="font-semibold text-[14px] pb-[0.2rem] px-[0.6rem]">Log In</p>
         </div>
         <div className="flex items-center justify-center w-auto h-[1.8rem]  mr-3 bg-[#9147ff] cursor-pointer rounded mr-4 text-white hover:bg-[#7e3ce0]">
-          <p className="font-semibold whitespace-nowrap text-[12px] lg:text-[14px]] pb-[0.2rem] px-[0.6rem]">Sign Up</p>
+          <p className="font-semibold text-[14px] pb-[0.2rem] px-[0.6rem]">Sign Up</p>
         </div>
         <div className="flex items-center justify-center w-8 h-8 rounded bg-[#fff] hover:bg-[#e0e0e0] cursor-pointer"><FiUser className="w-6 h-6 "/></div>
       </div>

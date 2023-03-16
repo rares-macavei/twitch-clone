@@ -64,9 +64,9 @@ const Cards = () => {
             </div>
           </div>
         </div>
-        <div className="pt-6 flex items-center lg:flex hidden">
+        <div className="pt-6 flex items-center">
           <p className='text-[14px] mr-3'>Sort by</p>
-          <div className="flex items-center justify-center cursor-pointer h-8 w-[1rem] lg:w-[12rem] bg-[#e4e4e5] text-[18px] rounded-md border-[2.5px] hover:border-[#cbcbcb] hover:border-[2.5px] text-[13px] font-normal py-[5px] transition ease-out delay-100 focus:bg-[#f7f7f8] focus:border-[#5c16c5]">
+          <div className="flex items-center justify-center cursor-pointer h-8 w-[12rem] bg-[#e4e4e5] text-[18px] rounded-md border-[2.5px] hover:border-[#cbcbcb] hover:border-[2.5px] text-[13px] font-normal py-[5px] transition ease-out delay-100 focus:bg-[#f7f7f8] focus:border-[#5c16c5]">
             <button className='font-normal text-[12px] flex items-center justify-center'>
               Recommended For You
               <BiChevronDown className='text-[24px] ml-1'/>
@@ -75,7 +75,7 @@ const Cards = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-9 gap-3">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-9 gap-3">
         {cards.map((card) => <Card title={card.title} image={card.image} viewers={card.viewers} type={card.type} />)}
       </div>
     </div>
