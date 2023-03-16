@@ -9,7 +9,7 @@ import { CgCrown } from "react-icons/cg";
 
 const Navbar = () => {
   return (
-    <div className="bg-white py-2 px-2 lg:px-4 flex items-start justify-between shadow-md ">
+    <div className="bg-white py-2 px-0 lg:px-4 flex items-start justify-between shadow-md ">
       {/* Left side */}
       <div className="flex items-center gap-4">
         <img src={Logo} alt="Twitch Logo" className="w-6 h-6 cursor-pointer" />
