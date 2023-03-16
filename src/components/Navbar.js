@@ -9,7 +9,7 @@ import { CgCrown } from "react-icons/cg";
 
 const Navbar = () => {
   return (
-    <div className="bg-white py-2 px-4 flex items-start justify-between shadow-md ">
+    <div className="bg-white py-2 px-2 lg:px-4 flex items-start justify-between shadow-md ">
       {/* Left side */}
       <div className="flex items-center gap-4">
         <img src={Logo} alt="Twitch Logo" className="w-6 h-6 cursor-pointer" />
@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* Right side */}
       <div className="flex items-center mt-[0.2rem]">
         <div className="md:hidden flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] mr-3"><BsSearch className="w-4 h-[1.3rem] "/></div>
-        <div className="flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] mr-3"><CgCrown className="w-auto h-[1.3rem] "/></div>
+        <div className="hidden lg:flex items-center justify-center w-8 h-8 rounded cursor-pointer bg-[#fff] hover:bg-[#e0e0e0] mr-3"><CgCrown className="w-auto h-[1.3rem] "/></div>
         <div className="flex items-center justify-center w-auto h-[1.8rem]  mr-3 bg-[#ebebeb] cursor-pointer rounded mr-4 hover:bg-[#e0e0e0]">
           <p className="font-semibold text-[12px] lg:text-[14px] pb-[0.2rem] whitespace-nowrap px-[0.6rem]">Log In</p>
         </div>
